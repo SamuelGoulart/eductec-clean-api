@@ -4,8 +4,7 @@
       "project": "./tsconfig.json"
     },
     "rules": {
-      "indent": ["error", "tab"],
-      "eslint-disable-next-line @typescript-eslint/indent": "off",
+      "indent": ["error", 2],
       "@typescript-eslint/strict-boolean-expressions": "off",
       "@typescript-eslint/consistent-type-definitions": "off",
       "@typescript-eslint/comma-spacing": "off",
