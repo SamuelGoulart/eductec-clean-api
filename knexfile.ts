@@ -2,7 +2,7 @@ import path from 'path'
 
 const knexConfig = {
   development: {
-    client: 'mysql2',
+    client: 'mysql',
     connection: {
       database: 'eductec',
       host: 'localhost',

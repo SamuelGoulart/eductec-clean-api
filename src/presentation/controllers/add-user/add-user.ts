@@ -1,7 +1,7 @@
 import { badRequest, ok, serverError } from '../../helpers/http/http-helper'
 import { Controller, HttpRequest, HttpResponse, Validation, AddUserAccount } from './add-user-protocols'
 
-export class addUser implements Controller {
+export class AddUserController implements Controller {
   private readonly validator: Validation
   private readonly addUserAccount: AddUserAccount
 
