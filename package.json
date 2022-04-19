@@ -39,6 +39,7 @@
   "dependencies": {
     "bcrypt": "^5.0.1",
     "express": "^4.17.3",
+    "fast-glob": "^3.2.11",
     "knex": "^1.0.7",
     "mysql2": "^2.3.3",
     "validator": "^13.7.0"
