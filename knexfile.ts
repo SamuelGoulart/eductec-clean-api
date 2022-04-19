@@ -1,6 +1,6 @@
 import path from 'path'
 
-export default {
+const knexConfig = {
   development: {
     client: 'mysql2',
     connection: {
@@ -11,10 +11,12 @@ export default {
       password: 'abc45101922072'
     },
     migrations: {
-      directory: path.join(__dirname, '/src/infra/db/mssqldb/database/migrations')
+      directory: path.join(__dirname, '/src/infra/db/mysql/database/migrations')
     },
     seeds: {
-      directory: path.join(__dirname, '/src/infra/db/mssqldb/database/seeds')
+      directory: path.join(__dirname, '/src/infra/db/mysql/database/seeds')
     }
   }
 }
+
+export default knexConfig
