@@ -11,6 +11,7 @@ const knexConfig = {
       password: 'abc45101922072'
     },
     migrations: {
+      tableName: 'knex_migrations',
       directory: path.join(__dirname, '/src/infra/db/mysql/database/migrations')
     },
     seeds: {
