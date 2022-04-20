@@ -45,6 +45,7 @@
     "knex": "^1.0.7",
     "mysql": "^2.18.1",
     "nodemailer": "^6.7.3",
+    "tedious": "^14.4.0",
     "validator": "^13.7.0"
   }
 }
