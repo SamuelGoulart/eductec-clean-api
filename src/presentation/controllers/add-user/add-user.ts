@@ -17,12 +17,12 @@ export class AddUserController implements Controller {
         return badRequest(error)
       }
 
-      const { name, email, role } = httpRequest.body
+      const { name, email, roleId } = httpRequest.body
 
       const account = await this.addUserAccount.add({
         name,
         email,
-        role
+        roleId
       })
 
       return ok(account)
