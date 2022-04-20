@@ -4,7 +4,7 @@ import { EmailValidatorAdapter } from '../../../utils/email-validator-adapter'
 
 export const makeAddUserValidation = (): ValidationComposite => {
   const validations: Validation[] = []
-  for (const field of ['name', 'email', 'role']) {
+  for (const field of ['name', 'email', 'roleId']) {
     validations.push(new RequiredFieldValidation(field))
   }
   validations.push(new EmailValidation('email', new EmailValidatorAdapter()))
