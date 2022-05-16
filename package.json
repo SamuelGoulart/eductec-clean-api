@@ -43,7 +43,7 @@
     "express": "^4.17.3",
     "fast-glob": "^3.2.11",
     "knex": "^1.0.7",
-    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
     "nodemailer": "^6.7.3",
     "tedious": "^14.4.0",
     "validator": "^13.7.0"

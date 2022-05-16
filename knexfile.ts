@@ -2,13 +2,13 @@ import path from 'path'
 
 const knexConfig = {
   development: {
-    client: 'mssql',
+    client: 'mysql2',
     connection: {
       database: 'eductec',
-      host: 'localhost',
-      port: 1433,
-      user: 'samuel.almeida',
-      password: ''
+      host: 'mysql',
+      port: 3306,
+      user: 'root',
+      password: '123456'
     },
     migrations: {
       tableName: 'knex_migrations',
